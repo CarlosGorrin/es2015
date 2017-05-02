@@ -10,6 +10,7 @@
     return total + (total * tax) + (total * tip);
   }
 
+  //undefined pass the previous tax. 0.25 overwrite tip
   const totalBill = calculateBill(100, undefined, 0.25);
   console.log(totalBill);
 </script>
